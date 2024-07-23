@@ -9,6 +9,7 @@ export default defineConfig({
       filename: 'remoteEntry.js',
       exposes: {
         './counter': './src/counter.ts',
+        './program': './src/program.ts',
       },
     }),
   ],
