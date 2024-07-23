@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import federation from '@originjs/vite-plugin-federation';
 
 export default defineConfig({
+  base: '/modules/',
   plugins: [
     federation({
       name: 'modules',
