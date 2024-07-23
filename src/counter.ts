@@ -1,5 +1,6 @@
+console.log('HELLO WORLD!');
+
 export function setupCounter(element: HTMLButtonElement) {
-  console.log('HELLO WORLD!');
   let counter = 0;
   const setCounter = (count: number) => {
     counter = count;
